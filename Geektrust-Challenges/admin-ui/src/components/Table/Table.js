@@ -13,7 +13,7 @@ function Table({ tableData }) {
   };
 
   function renderFunction() {
-    return data.map((item, index) => {
+    return data.slice(0, 10).map((item, index) => {
       return (
         <tr key={index}>
           <td>
